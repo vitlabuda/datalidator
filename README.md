@@ -50,6 +50,13 @@ files, user inputs, web API outputs** etc.
 
 
 ## How to use this library?
+### Installation
+Datalidator can be installed from [PyPI](https://pypi.org/project/datalidator/) using `pip`:
+```shell
+python3 -m pip install --upgrade datalidator
+```
+
+### Tutorial
 This library ships with a **tutorial** series:
 1. [The Basics](tutorial/001_The-Basics.md)
 2. [Using Blueprints](tutorial/002_Using-Blueprints.md)
