@@ -20,14 +20,16 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
+import os
 import os.path
 import sys
-__TESTS_DIR = os.path.dirname(os.path.realpath(__file__))  
-__MODULE_DIR = os.path.realpath(os.path.join(__TESTS_DIR, "../.."))  
-if __TESTS_DIR not in sys.path:  
-    sys.path.insert(0, __TESTS_DIR)  
-if __MODULE_DIR not in sys.path:  
-    sys.path.insert(0, __MODULE_DIR)  
+if "DATALIDATOR_TESTS_AUTOPATH" in os.environ:
+    __TESTS_DIR = os.path.dirname(os.path.realpath(__file__))
+    __MODULE_DIR = os.path.realpath(os.path.join(__TESTS_DIR, "../.."))
+    if __TESTS_DIR not in sys.path:
+        sys.path.insert(0, __TESTS_DIR)
+    if __MODULE_DIR not in sys.path:
+        sys.path.insert(0, __MODULE_DIR)
 
 from typing import Any, List
 import theoretical_testutils

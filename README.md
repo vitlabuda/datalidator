@@ -26,6 +26,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 One of its most prominent characteristics is that it is able to parse various kinds of input data: **configuration 
 files, user inputs, web API outputs** etc.
 
+*NOTE: Some links in this README may not work if the file is not viewed through 
+[GitHub](https://github.com/vitlabuda/datalidator/blob/main/README.md).*
+
 
 ## Features and characteristics
 - supports **Python 3.9 and above**

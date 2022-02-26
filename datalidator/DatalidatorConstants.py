@@ -34,7 +34,7 @@ class DatalidatorConstants:
 
     __slots__ = ()
 
-    LIBRARY_VERSION: Final[str] = "1.0.0"
+    LIBRARY_VERSION: Final[str] = "1.0.1"
 
     # https://docs.python.org/3/library/stdtypes.html#str.splitlines
     NEWLINE_SEQUENCES: Final[Tuple[str, ...]] = ("\r\n", "\n", "\r", "\v", "\f", "\x1c", "\x1d", "\x1e", "\x85", "\u2028", "\u2029")
